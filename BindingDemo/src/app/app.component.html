@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+
+<h3>
+  Hello World
+</h3>
+<h2>{{firstName}}</h2>
+<div>
+  <h2><span [innerHTML]='firstName'></span></h2>                
+</div>
+
+<h1 [style.color]="'red'">This is a Blue Heading</h1>
+<div [style.color]="'blue'">Some example text</div>
+<input type="text" [(ngModel)] = 'val' />
+Enter the value  : <input [(ngModel)] ='val'> 
+               <br> 
+                Entered value is:  {{val}} 
+                Enter the value  : <input [ngModel] ='val'> 
+               <br> 
+                Entered value is:  {{val}} 
+
